@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import { Header, Button, CardItem, Spinner } from './components/common';
-import LoginForm from './components/LoginForm';
+import { Header } from './components/common';
 
 class App extends Component {
 
+  render() {
+    return (<View>
+      <Header headerText="Hello" />
+    </View>
+  );
+    }
 }
 
 export default App;
